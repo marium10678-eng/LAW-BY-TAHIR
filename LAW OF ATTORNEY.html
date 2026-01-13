@@ -1,0 +1,191 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LAW BY TAHIR</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen bg-gray-50 text-gray-800">
+
+  <!-- HEADER -->
+  <header class="bg-gradient-to-r from-blue-900 to-indigo-700 text-white">
+    <div class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+
+      <div class="flex items-center gap-3">
+        <div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center text-xl font-bold">LT</div>
+        <div>
+          <h1 class="text-2xl font-semibold">LAW BY TAHIR</h1>
+          <p class="text-sm opacity-80">Trusted legal advice — Pakistan</p>
+        </div>
+      </div>
+
+      <nav class="space-x-6 hidden md:block">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#services" class="hover:underline">Services</a>
+        <a href="#team" class="hover:underline">Attorneys</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+
+      <a href="#contact" class="hidden md:inline-block bg-white/10 px-4 py-2 rounded-md border border-white/20 hover:bg-white/20">Get Consultation</a>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="max-w-6xl mx-auto px-6 py-12">
+
+    <!-- HERO -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-4xl md:text-5xl font-extrabold leading-tight mb-4">Legal expertise you can rely on.</h2>
+        <p class="text-lg mb-6">Specialized services in corporate, family, civil and criminal law. Practical advice, strong representation.</p>
+
+        <div class="flex gap-4">
+          <a href="#contact" class="px-6 py-3 bg-indigo-600 text-white rounded-md shadow">Request Consultation</a>
+          <a href="#services" class="px-6 py-3 border rounded-md">Our Services</a>
+        </div>
+      </div>
+
+      <!-- Quick Contact -->
+      <div class="bg-white rounded-2xl shadow-md p-6">
+        <h3 class="text-xl font-semibold mb-3">Quick Contact</h3>
+        <p class="text-sm mb-4">Leave your details and we will contact you within one business day.</p>
+
+        <form id="quickForm" class="space-y-3">
+          <input id="qname" class="w-full p-3 border rounded" placeholder="Full name" required />
+          <input id="qemail" class="w-full p-3 border rounded" placeholder="Email" type="email" required />
+          <input id="qphone" class="w-full p-3 border rounded" placeholder="Phone" />
+          <textarea id="qmessage" class="w-full p-3 border rounded" placeholder="Brief message" rows="3"></textarea>
+          <button class="w-full py-3 bg-indigo-600 text-white rounded">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ABOUT + SERVICES -->
+    <section id="about" class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="md:col-span-2 bg-white p-6 rounded-lg shadow">
+        <h3 class="text-2xl font-semibold mb-2">About LAW BY TAHIR</h3>
+        <p class="text-sm mb-3">LAW BY TAHIR is a boutique law firm offering dedicated legal services across Pakistan.</p>
+
+        <ul class="list-disc pl-5 text-sm space-y-1">
+          <li>Client-focused legal advice</li>
+          <li>Transparent fee structure</li>
+          <li>Fast and practical solutions</li>
+        </ul>
+      </div>
+
+      <aside id="services" class="bg-white p-6 rounded-lg shadow">
+        <h4 class="text-xl font-semibold mb-3">Services</h4>
+        <ul class="space-y-2 text-sm">
+          <li>Corporate & Commercial Law</li>
+          <li>Family & Civil Litigation</li>
+          <li>Criminal Defense</li>
+          <li>Contracts & Legal Drafting</li>
+        </ul>
+      </aside>
+    </section>
+
+    <!-- ATTORNEYS -->
+    <section id="team" class="mt-12">
+      <h3 class="text-2xl font-semibold mb-6">Our Attorneys</h3>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Attorney Card 1 -->
+        <article class="bg-white p-5 rounded-lg shadow hover:shadow-lg transition">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center text-xl font-semibold">TA</div>
+            <div>
+              <h4 class="font-semibold">Tahir Ahmed</h4>
+              <p class="text-sm opacity-80">Senior Partner — Corporate & Commercial Law</p>
+            </div>
+          </div>
+
+          <p class="text-sm mb-3">20+ years advising businesses on compliance and agreements.</p>
+        </article>
+
+        <!-- Attorney Card 2 -->
+        <article class="bg-white p-5 rounded-lg shadow hover:shadow-lg transition">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center text-xl font-semibold">AK</div>
+            <div>
+              <h4 class="font-semibold">Aisha Khan</h4>
+              <p class="text-sm opacity-80">Associate — Family & Civil Law</p>
+            </div>
+          </div>
+
+          <p class="text-sm mb-3">Experienced in divorce, custody and family litigation.</p>
+        </article>
+
+        <!-- Attorney Card 3 -->
+        <article class="bg-white p-5 rounded-lg shadow hover:shadow-lg transition">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center text-xl font-semibold">BQ</div>
+            <div>
+              <h4 class="font-semibold">Bilal Qureshi</h4>
+              <p class="text-sm opacity-80">Associate — Criminal Defense</p>
+            </div>
+          </div>
+
+          <p class="text-sm mb-3">Specialist in criminal trials and bail matters.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="mt-12 bg-white p-6 rounded-lg shadow">
+      <h3 class="text-2xl font-semibold mb-3">Contact LAW BY TAHIR</h3>
+
+      <form id="contactForm" class="space-y-3 max-w-lg">
+        <input id="cname" class="w-full p-3 border rounded" placeholder="Full name" required />
+        <input id="cemail" class="w-full p-3 border rounded" placeholder="Email" type="email" required />
+        <textarea id="cmessage" class="w-full p-3 border rounded" placeholder="Your message" rows="4"></textarea>
+        <button class="px-5 py-3 bg-indigo-600 text-white rounded">Send Message</button>
+      </form>
+    </section>
+
+    <footer class="mt-12 text-center text-sm text-gray-500">
+      © 2025 LAW BY TAHIR — All rights reserved.
+    </footer>
+
+  </main>
+
+<script>
+// Function to POST data to backend
+async function sendData(data) {
+    await fetch("http://localhost:3000/save-info", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+    });
+    alert("Information saved to your computer successfully!");
+}
+
+// Quick Contact Form
+document.getElementById("quickForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    sendData({
+        name: document.getElementById("qname").value,
+        email: document.getElementById("qemail").value,
+        phone: document.getElementById("qphone").value,
+        message: document.getElementById("qmessage").value
+    });
+});
+
+// Main Contact Form
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    sendData({
+        name: document.getElementById("cname").value,
+        email: document.getElementById("cemail").value,
+        phone: "",
+        message: document.getElementById("cmessage").value
+    });
+});
+</script>
+
+</body>
+</html>
